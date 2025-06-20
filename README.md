@@ -1,4 +1,3 @@
-# Log Dashboard
 # Logging Service
 
 A lightweight Node.js logging service with MongoDB support. Logs are collected and stored in batches for efficient write operations.
@@ -86,7 +85,7 @@ Create a new log entry.
     "level": "info",
     "file": "app.js"
   },
-  "userId": "12345"  // Additional metadata is allowed
+  "userId": "12345"
 }
 ```
 
@@ -125,7 +124,7 @@ Logs are temporarily stored in an in-memory bucket and flushed to MongoDB when e
 ## Running the App
 
 ```bash
-npm run build    # If using TypeScript
+npm run build 
 npm start
 ```
 
