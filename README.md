@@ -32,7 +32,7 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 PORT=3070
-DATABASE_TYPE=1                   # Only 1 (MONGODB) is currently supported
+DATABASE_TYPE=1                
 MONGODB_URI=mongodb://localhost:27017
 DB_NAME=logging
 COLLECTION_NAME=logs
